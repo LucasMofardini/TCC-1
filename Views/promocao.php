@@ -33,7 +33,7 @@ font-family: beloved;
 		transition: 0.6s;
 	}
 center{
-			transition: transform 0.3s linear 0.1s;
+			transition: transform 0.23s linear 0.1s;
 }
 
 </style>
