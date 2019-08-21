@@ -32,8 +32,8 @@ font-family: beloved;
 		transform: scale(1.02);
 		transition: 0.6s;
 	}
-center{
-			transition: transform 0.23s linear 0.1s;
+h1	{
+			transition: transform 0.3s linear 0.1s;
 }
 
 </style>

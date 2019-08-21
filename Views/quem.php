@@ -8,7 +8,7 @@ include_once('../Controller/config.php');
 <head>
 	<title>Quem somos</title>
   <center>
-    <h1>Quem somos</h1>
+    <h1 class="titulo">Quem somos</h1>
   </center>
 </head>
 <body>
@@ -18,7 +18,7 @@ include_once('../Controller/config.php');
         <h2 id="nome-raphael">Raphael Barbosa Rodrigues</h2>
 
       </center>
-        <img id="img-raphael" class="fotos-criadores" src="https://avatars3.githubusercontent.com/u/42044496?s=400&v=4" alt="Raphael">
+        <img id="img-raphael" class="fotos-criadores col-7" src="https://avatars3.githubusercontent.com/u/42044496?s=400&v=4" alt="Raphael">
 
 				<center>
 
@@ -28,6 +28,25 @@ include_once('../Controller/config.php');
 							 me considero em um nível entre intermediário e avançado no idioma.</p>
 				</center>
       </div>
+				<div class="arrumar">
+
+				</div>
+			<div class="div-raphael">
+				<center>
+
+				<h2 id="nome-raphael">Lucas Gabriel M. de Almeida</h2>
+
+			</center>
+				<img id="img-raphael" class="fotos-criadores "width="400px" src="https://pbs.twimg.com/profile_images/618982505388056576/8-ZCX5pc_400x400.jpg" alt="Raphael">
+
+				<center>
+
+						<p class="texto-rapha">Olá,meu nome é Raphael Barbosa Rodrigues e estou cursando o 3º ano do ensino médio , <br>
+							integrado a t.i, não possuo experiência profissional relacionada a t.i, <br>
+							contudo já desenvolvi diversos projetos na área, faço curso de inglês a quase três anos e <br>
+							 me considero em um nível entre intermediário e avançado no idioma.</p>
+				</center>
+			</div>
 
 			<!-- <div class="div-lucas">
 				<center>
@@ -66,7 +85,7 @@ font-family: beloved;
 		transform: scale(1.02);
 		transition: 0.6s;
 	}
-center{
+h1{
 			transition: transform 0.3s linear 0.1s;
 }
 .fotos-criadores{
@@ -76,9 +95,17 @@ center{
 img{
 
 }
+.arrumar{
+	margin-top: 35em;
+}
 #img-raphael{
   float:right;
+	transition: transform 0.3s linear 0.1s;
 
+}
+#img-raphael:hover{
+	transform: scale(1.02);
+	transition: 0.6s;
 }
 #nome-raphael{
   float:left;
@@ -117,5 +144,10 @@ img{
 .div-raphael{
 	position: relative;
 	top: 4vh;
+}
+@media screen and (max-width: 800px){
+	.titulo{
+width: 100%;
+	}
 }
 </style>
